@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  color: $color-abbey;
+  background-color: $color-black;
+
+  &__copyright {
+    color: $color-blue;
+  }
+
+  &__icon {
+    color: $color-cinnabar;
+  }
+
+  &__signature {
+    color: $color-blue;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
